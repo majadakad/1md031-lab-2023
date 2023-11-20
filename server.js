@@ -37,6 +37,8 @@ else {
   });
 }
 
+app.use(express.static('public'))
+
 
 const io = require('socket.io')(http, {cookie: false});
 

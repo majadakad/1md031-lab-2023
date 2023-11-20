@@ -1,0 +1,83 @@
+/* Style sheet for burger ordering website */
+
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Share+Tech+Mono");
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+}
+
+section{
+    margin: 0px;
+    border-top: solid black;
+    border-bottom: 0px;
+    border-left: 0px; 
+    border-right: 0px;
+    border-width: 1.25em;
+}
+
+#min-header {
+    background-image: url('https://media.istockphoto.com/id/614844110/sv/vektor/fast-food-seamless-pattern.jpg?s=612x612&w=0&k=20&c=bG62KCFmcHKSUuHJP5V6MnReI2v6AAI5cX23VGPcTnY=');
+    height: 25em; 
+}
+
+#hamburgersida-titel{
+    margin: 7em;
+    color: black; 
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: 11em 11em 11em;
+    margin: 0em 0em 0em 2em;
+}
+
+button {
+    width: 10em;
+    height: 2em;
+    font-size: 0.7em;
+    text-align: left;
+    margin: 0em 0em 1.7em 0em;
+}
+
+button:hover {
+    background-color: rgb(78, 255, 47);
+    cursor: pointer;
+ }
+
+
+.ingredienser_titel{
+    font-size: 1em;
+    color: rgba(169, 155, 112, 0.616);
+}
+
+.ingredienser_innehållslista{
+    font-weight: bold;
+    font-size: 0.7em;
+    color: rgb(255, 255, 255);
+}
+
+#våra-hamburgare {
+    margin: 0em 0em 0em 2em;
+}
+
+#tillgängligaHamburgare {
+    color: white;
+    background-color: black;
+}
+
+ form input {
+    width: 10em;
+    height: 1.5em; 
+    font-size: 0.7em;
+ }
+
+ form input[type = radio] {
+    width: 0.7em;
+    height: 0.7em; 
+    font-size: 1em;
+ }
+
