@@ -1,0 +1,29 @@
+[
+    {
+      "name": "RegularCheese",
+      "kCal": 850,
+      "lactose": true,
+      "gluten": true,
+      "ingredients":{"eggs": "eggs", "bread" : "bread", "cheese": "cheese" } ,
+      "img": "https://ih1.redbubble.net/image.2556361402.8659/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+    },
+
+    {
+      "name": "NachoCheese",
+      "kCal": 850,
+      "lactose": true,
+      "gluten": true,
+      "ingredients":{"eggs": "eggs", "bread" : "bread", "nachos": "nachos" } ,
+      "img": "https://www.shutterstock.com/image-vector/hamburger-delicious-meat-cute-action-260nw-2334335001.jpg"
+    }, 
+
+    {
+      "name": "Fries",
+      "kCal": 300,
+      "lactose": false,
+      "gluten": false,
+      "ingredients":{"potatoes": "potatoes" } ,
+
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeKBQADMdLRVVKQn-1IHU5hY3WViH3BZDTYQ&usqp=CAU"
+    }
+  ]

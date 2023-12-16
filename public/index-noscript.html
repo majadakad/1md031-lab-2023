@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Burgerhimlen</title>
+
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;400;500;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id = "min-header">
+        <header>
+            <h1 id = "hamburgersida-titel">
+                Välkommen till Majas hamburgare!
+            </h1>
+        </header>
+    </section>
+    
+    <section id="tillgängligaHamburgare" class="tillgängliga-hamburgare">
+        <header id = "våra-hamburgare">
+            <h2>Våra hamburgare</h2>
+            <nav>Här väljer du burgare!</nav>
+        </header>
+    
+
+    <div class = "wrapper" >
+        
+        <div>
+            <header>
+                <h3>Regular cheese</h3>
+            </header>
+    
+            <nav> En helt vanlig cheeseburgare </nav>
+    
+            <img src="https://ih1.redbubble.net/image.2556361402.8659/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+                alt="burgaren" style="width: 300px; height: 250px;">
+    
+            <div class="ingredienser_titel">
+                Innehåll:
+    
+                <ul class="ingredienser_innehållslista">
+                    <li>Bröd</li>
+                    <li>Ost</li>
+                    <li>Nötkött</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div>
+            <header>
+                <h3>Nacho Cheese</h3>
+            </header>
+    
+            <nav> En färgsprakande smakexplosion! </nav>
+    
+            <img src="https://www.shutterstock.com/image-vector/hamburger-delicious-meat-cute-action-260nw-2334335001.jpg"
+                alt="burgaren" style="width: 300px; height: 250px;">
+    
+            <div class="ingredienser_titel">
+                Innehåll:
+    
+                <ul class="ingredienser_innehållslista">
+                    <li>Bröd</li>
+                    <li>Ost</li>
+                    <li>Nötkött</li>
+                    <li>Nachos</li>
+                    <li>Avokado</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <header>
+                <h3>VEGAN! French fries</h3>
+            </header>
+    
+            <nav> Krispiga, salta underverk </nav>
+    
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeKBQADMdLRVVKQn-1IHU5hY3WViH3BZDTYQ&usqp=CAU
+            alt="burgaren" style="width: 300px; height: 260px;">
+    
+            <div class="ingredienser_titel">
+                Innehåll:
+                <ul class="ingredienser_innehållslista">
+                    <li>Pommes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+<section>
+    <h2>
+        Kundinformation
+    </h2>
+
+    <div>
+        Här fyller du i dina kontakt- och beställningsuppgifter
+
+
+        <h3>
+            Beställningsuppgifter
+        </h3>
+
+        <div id="contact">
+            <form>
+                <p>
+                    <label for="För- och efternamn">Namn</label><br>
+                    <input type="text" id="För- och efternamn" name="fn" required="required" placeholder="För- och efternamn">
+                </p>
+
+                <label>
+                    <input type="radio" name="gender" value="man">
+                    Man
+                </label>
+                
+                <label>
+                    <input type="radio" name="gender" value="Kvinna">
+                    Kvinna
+                </label>
+                
+                <label>
+                    <input type="radio" name="gender" value="annat">
+                    Annat
+                </label>
+
+                <p>
+                    <label for="emailadress">E-mail</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail adress">
+                </p>
+
+                <p>
+                    <label for="Gata">Adress</label><br>
+                    <input type="text" id="Gata" name="ln" placeholder="Gata">
+                </p>
+
+                <p>
+                    <input type="number" id="Gatunummer" name="ln" placeholder="Gatunummer">
+                </p>
+            </form>
+        </div>
+    </div>
+    <div>
+        <h3>
+            Betalningsmetod
+        </h3>
+
+        <p>
+            <label for="Betalningsmetod">Betalningsmetod</label>
+            <select id="Betalningsmetod" name="btm">
+                <option>Klarna</option>
+                <option>Mastercard</option>
+                <option>Paypal</option>
+                <option>Kram till majsan</option>
+            </select>
+        </p>
+            
+        <button class="lägg beställning" type="button"> <img src="https://static.mathem.se/shared/images/products/large/kycklingburgare.jpg" alt="Button Icon" width="15" height="15"> Lägg beställning</button>
+    </div>
+</section>
+    <section>
+        <header>
+            <h2>Majas hamburgare</h2>
+        </header>
+
+        <footer>
+            End Notes
+            &copy;
+        </footer>
+    </section>
+</body>
+
+</html>
+
