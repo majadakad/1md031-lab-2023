@@ -102,6 +102,20 @@ import io from 'socket.io-client'
 
 const socket = io();
 
+/* function MenuItem(name, imageURL, kcal, lactose, gluten) {
+this.name=name;
+this.imageURL=imageURL;
+this.kcal=kcal;
+this.lactose=lactose;
+this.gluten=gluten;
+}
+
+const burger1 = new MenuItem("RegularCheese", "https://ih1.redbubble.net/image.2556361402.8659/flat,750x,075,f-pad,750x1000,f8f8f8.jpg", 300, true, true);
+const burger2 = new MenuItem("NachoCheese", "https://www.shutterstock.com/image-vector/hamburger-delicious-meat-cute-action-260nw-2334335001.jpg", 250, true, false);
+const burger3 = new MenuItem("Fries", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeKBQADMdLRVVKQn-1IHU5hY3WViH3BZDTYQ&usqp=CAU", 800, true, true);
+
+*/
+
 export default {
   name: 'HomeView',
   components: {

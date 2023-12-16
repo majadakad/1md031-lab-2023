@@ -14,6 +14,15 @@
         <li v-for="ingredient in burger.ingredients" :key="ingredient">{{ ingredient }}</li>
       </ul>
     </div>
+
+    <div v-if="burger.lactose || burger.gluten">
+      Allergener:
+      <ul class = "allergies">
+        <li v-if="burger.lactose">Laktos</li>
+        <li v-if="burger.gluten">Gluten</li>
+      </ul>
+    </div>
+
    Lägg till i beställning:  {{ amountOrdered }}
    <button @click = "addBurger"> + </button>
    <button @click = "removeBurger"> - </button>
@@ -82,6 +91,10 @@ div{
     font-weight: bold;
     font-size: 0.7em;
     color: rgb(255, 255, 255);
+}
+
+.allergies {
+  color: red;
 }
   </style>
   
