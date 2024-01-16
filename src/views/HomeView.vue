@@ -239,7 +239,7 @@ button:hover {
 }
 
 #map {
-  background: url("/Users/majadakad/Documents/1md031-lab-2023/public/img/polacks.jpg");
+  background: url('../../public/img/polacks.jpg');
   height: 1078px;
   width: 1920px;
   margin: 0em; 
